@@ -5,3 +5,5 @@ Akka typed hands on
 ```
 $ docker-compose up
 ```
+
+Working directory: /app/
