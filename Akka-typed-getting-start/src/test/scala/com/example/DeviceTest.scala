@@ -18,7 +18,7 @@ class DeviceSpec extends ScalaTestWithActorTestKit with AnyWordSpecLike:
         }
     }
 
-    "Reply with lastest temperature reading" in {
+    "Reply with latest temperature reading" in {
         val recordProbe = createTestProbe[TemperatureRecorded]()
         val readProbe = createTestProbe[RespondTemperature]()
         val deviceActor = spawn(Device("group", "device"))
